@@ -1,0 +1,35 @@
+{
+  "name": "notes-task1-typescript-radency",
+  "version": "1.0.0",
+  "description": "Create Notes with vania js and typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BerezovskyiRuslan/Notes-task1-typescript-Radency.git"
+  },
+  "author": "Berezovskyi Ruslan",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/webpack-dev-server": "^4.7.2",
+    "autoprefixer": "^10.4.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "postcss": "^8.4.5",
+    "postcss-cli": "^9.1.0",
+    "postcss-loader": "^6.2.1",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.2.8",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "bugs": {
+    "url": "https://github.com/BerezovskyiRuslan/Notes-task1-typescript-Radency/issues"
+  },
+  "homepage": "https://github.com/BerezovskyiRuslan/Notes-task1-typescript-Radency#readme"
+}

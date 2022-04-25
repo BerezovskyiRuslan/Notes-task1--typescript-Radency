@@ -1,0 +1,256 @@
+* {
+    background: #eee;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.w-16 {
+    width: calc((100%-30px) / 6);
+}
+.w-25 {
+    width: 25%;
+}
+.w-50 {
+    width: 50%;
+}
+
+.container-list-notes {
+    margin: 30px;
+}
+
+.text-empty {
+    background: #e8eaf5;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #999;
+}
+
+.header-list-notes {
+    display: flex;
+    background: #999;
+    border-radius: 4px;
+    color: #fff;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.header-list-notes-name {
+    background: transparent;
+    color: white;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+.header-list-notes-name:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.header-button {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.header-button-icon {
+    width: 25px;
+    height: 25px;
+    background: #999;
+    color: white;
+}
+
+.header-button-icon:hover {
+    color: #eee;
+}
+
+.content-list-notes {
+    margin-top: 10px;
+    width: 100%;
+    max-height: 310px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.content-list-notes-item {
+    /* margin: 5px 0; */
+    height: 50px;
+    width: 100%;
+    background-color: #e8eaf5;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+.content-list-notes-item-text {
+    background: transparent;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-list-notes-item-text:first-child {
+    gap: 10px;
+}
+
+.content-list-notes-item-text-span {
+    background: transparent;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.content-list-notes-item-name-icon-container {
+    height: 30px;
+    width: 35px;
+    border-radius: 50%;
+    background: #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-list-notes-item-name-icon {
+    width: 25px;
+    height: 20px;
+    color: white;
+    background: transparent;
+    margin-top: 2px;
+    fill: #fff;
+}
+
+.content-list-notes-item-actions-button {
+    border: none;
+    outline: none;
+    background: transparent;
+    height: 100%;
+    width: 25px;
+    margin: 0 5px;
+}
+
+.content-list-notes-item-actions-button-icon {
+    width: 25px;
+    height: 40px;
+    background: transparent;
+    color: #999;
+}
+
+.content-list-notes-item-actions-button-icon:hover {
+    color: #333;
+}
+
+.container-button-create {
+    margin: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-create {
+    border: none;
+    outline: none;
+    background: #bbb;
+    border-radius: 4px;
+    padding: 5px 15px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.button-create:hover {
+    background: #666;
+    color: #fff;
+}
+
+.first-header-position {
+    text-align: left;
+    margin-left: 20px;
+}
+.first-content-position {
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.display-none {
+    display: none;
+}
+
+.container-content-list-notes-items {
+    margin: 10px 0;
+}
+
+.content-list-notes-item-full {
+    background-color: #e8eaf5;
+    padding: 0 10px;
+}
+
+.content-list-notes-item-full-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    /* margin: 0px 30px; */
+    background: transparent;
+    border-bottom: 1px solid #999;
+    color: #666;
+    padding: 10px;
+}
+
+.content-list-notes-item-full-text p {
+    background: transparent;
+}
+
+.content-list-notes-item-full-name-category {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    /* padding: 0 10px; */
+}
+
+.content-list-notes-item-full-name-category h3 {
+    margin: 0 10px;
+    background: transparent;
+}
+
+.content-list-notes-item-full-name-category-span {
+    margin: 0 10px;
+    background: transparent;
+}
+
+.content-list-notes-item-full-text-pre {
+    padding: 15px 10px;
+    
+}
+
+.content-list-notes-item-full-text-pre {
+    background: transparent;
+}
+
+.content-list-notes-item-full-text-pre pre {
+    background: transparent;
+}
+
+.container-visible {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    margin-right: 7px;
+}
+
+.container-visible-icon {
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    color: #999;
+}
+
+/* #e8eaf5 */
